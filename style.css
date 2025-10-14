@@ -57,4 +57,8 @@ body {
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #eee;
+}/* Görev tamamlandığında üstünü çiz */
+.completed {
+    text-decoration: line-through;
+    color: #888;
 }
