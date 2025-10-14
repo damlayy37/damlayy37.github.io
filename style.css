@@ -1,0 +1,60 @@
+/* Temel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Açık gri arka plan */
+    display: flex; /* Öğeleri merkezlemek için */
+    justify-content: center; /* Yatay merkezleme */
+    align-items: flex-start; /* Dikeyde yukarıdan başla */
+    padding-top: 50px;
+    margin: 0;
+}
+
+/* Ana Uygulama Kartı */
+#app-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Giriş Alanı Tasarımı */
+#input-area {
+    display: flex;
+    margin-top: 20px;
+}
+
+#task-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Buton tarafını köşesiz yap */
+    font-size: 16px;
+}
+
+#add-button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Yeşil buton */
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* Liste Tasarımı */
+#task-list {
+    list-style: none; /* Noktaları kaldır */
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
